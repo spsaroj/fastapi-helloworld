@@ -1,6 +1,6 @@
 from fastapi import APIRouter, Depends
-from controller.task_controller import TasksController
-from models.task_model import Task
+from app.controller.task_controller import TasksController
+from app.models.task_model import Task
 
 router = APIRouter()
 task_controller = TasksController()

@@ -1,12 +1,12 @@
-import MySQLdb
+import mysqlclient
 
 # Database configuration
 db_config = {
     'host': 'localhost',
     'user': 'root',
     'passwd': 'root',
-    'db': 'tasksDb',
+    'db': 'tasks',
 }
 
 # Create a connection to the database
-conn = MySQLdb.connect(**db_config)
+conn = mysqlclient.connect(**db_config)

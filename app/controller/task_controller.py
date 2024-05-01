@@ -1,6 +1,6 @@
 from fastapi import HTTPException
-from models.task_model import Task
-from models.dbconnection import conn
+from app.models.task_model import Task
+from app.models.dbconnection import conn
 
 class TasksController:
     @staticmethod
