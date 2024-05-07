@@ -1,4 +1,4 @@
 fastapi==0.95.0
-SQLAlchemy==2.0.7
+sqlalchemy==2.0.7
 uvicorn==0.21.1
-mysqlclient==2.2.4
+pymysql==1.1.0
